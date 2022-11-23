@@ -1,0 +1,43 @@
+.harder {
+    margin-top: 35px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.harder .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    transition: 0.7c all;
+}
+
+.nav-list {
+    color: black
+}
+
+.nav-a {
+    padding-right: 60px;
+    color: black;
+}
+
+.nav-li {
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.nav-list:hover {
+  padding-left:10px;
+}
